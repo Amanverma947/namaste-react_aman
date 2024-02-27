@@ -1,0 +1,33 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "First react application namaste react",
+    "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanverma947/namaste-react_aman.git"
+  },
+  "keywords": [
+    "react",
+    "namaste"
+  ],
+  "author": "Aman verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amanverma947/namaste-react_aman/issues"
+  },
+  "homepage": "https://github.com/Amanverma947/namaste-react_aman#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 10 versions"
+  ]
+}
