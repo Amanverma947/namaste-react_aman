@@ -7,9 +7,9 @@ const RestrauntCard =(props)=>{
         avgRating,
         cuisines,
         costForTwo,
-        deliveryTime,
+        sla,
 
-    }= resData?.data;
+    }= resData?.info;
     return(
         <div className="res-card">
             <img  
@@ -19,8 +19,8 @@ const RestrauntCard =(props)=>{
             <h3>{name}</h3>
             <h4>{cuisines.join(", ")}</h4>
             <h4>{avgRating} stars </h4>
-            <h4>rs {costForTwo / 100} FOR TWO </h4>
-            <h4>{deliveryTime} minutes </h4>
+            <h4>rs {costForTwo}</h4>
+            <h4>{sla.slaString}</h4>
         </div>
     );
 }
